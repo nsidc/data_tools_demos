@@ -1,0 +1,33 @@
+name: project-demo-20240313
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - python ~=3.12
+
+ ###################################################
+ # Imported dependencies and extensions            #
+ ###################################################
+
+ - jupyterlab
+ - earthaccess
+ - fsspec
+ - kerchunk
+ - matplotlib
+ - cartopy
+ - dask
+ - xarray
+ - h5netcdf
+ - cftime
+ - rioxarray
+ - openpyxl
+ - geopandas
+ - aiohttp
+ - pqdm
+ - pytest
+ - nbdime
+ - geocube
+ - geodatasets
+ - pip:
+     - /home/apbarret/src/nsidc_projections
+
